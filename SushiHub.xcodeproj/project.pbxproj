@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C4123472A4EAB2E001BA32C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4123462A4EAB2E001BA32C /* AppDelegate.swift */; };
+		8C4123492A4EAB2E001BA32C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4123482A4EAB2E001BA32C /* SceneDelegate.swift */; };
+		8C41234B2A4EAB2E001BA32C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C41234A2A4EAB2E001BA32C /* ViewController.swift */; };
+		8C41234E2A4EAB2E001BA32C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C41234C2A4EAB2E001BA32C /* Main.storyboard */; };
+		8C4123512A4EAB2E001BA32C /* SushiHub.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8C41234F2A4EAB2E001BA32C /* SushiHub.xcdatamodeld */; };
+		8C4123532A4EAB2F001BA32C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C4123522A4EAB2F001BA32C /* Assets.xcassets */; };
+		8C4123562A4EAB2F001BA32C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C4123542A4EAB2F001BA32C /* LaunchScreen.storyboard */; };
+		8C41235E2A4EAB62001BA32C /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C41235D2A4EAB61001BA32C /* TabBarController.swift */; };
+		8C4123602A4EAC45001BA32C /* SushiCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C41235F2A4EAC45001BA32C /* SushiCollectionViewController.swift */; };
+		8C4123642A4EB109001BA32C /* StepByStepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4123632A4EB109001BA32C /* StepByStepViewController.swift */; };
+		8C4123662A4EB123001BA32C /* SushiSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4123652A4EB123001BA32C /* SushiSelectionViewController.swift */; };
+		8CEDBAE32A4F44C1004ACE3C /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEDBAE22A4F44C1004ACE3C /* RecipeModel.swift */; };
+		8CEDBAE52A4F44E6004ACE3C /* Sushi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEDBAE42A4F44E6004ACE3C /* Sushi.swift */; };
+		8CEDBAE72A4F4518004ACE3C /* RecipeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEDBAE62A4F4518004ACE3C /* RecipeCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8C4123432A4EAB2E001BA32C /* SushiHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SushiHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C4123462A4EAB2E001BA32C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8C4123482A4EAB2E001BA32C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8C41234A2A4EAB2E001BA32C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8C41234D2A4EAB2E001BA32C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8C4123502A4EAB2E001BA32C /* SushiHub.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SushiHub.xcdatamodel; sourceTree = "<group>"; };
+		8C4123522A4EAB2F001BA32C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C4123552A4EAB2F001BA32C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8C4123572A4EAB2F001BA32C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C41235D2A4EAB61001BA32C /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		8C41235F2A4EAC45001BA32C /* SushiCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SushiCollectionViewController.swift; sourceTree = "<group>"; };
+		8C4123632A4EB109001BA32C /* StepByStepViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepByStepViewController.swift; sourceTree = "<group>"; };
+		8C4123652A4EB123001BA32C /* SushiSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SushiSelectionViewController.swift; sourceTree = "<group>"; };
+		8CEDBAE22A4F44C1004ACE3C /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
+		8CEDBAE42A4F44E6004ACE3C /* Sushi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sushi.swift; sourceTree = "<group>"; };
+		8CEDBAE62A4F4518004ACE3C /* RecipeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C4123402A4EAB2E001BA32C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C41233A2A4EAB2E001BA32C = {
+			isa = PBXGroup;
+			children = (
+				8C4123452A4EAB2E001BA32C /* SushiHub */,
+				8C4123442A4EAB2E001BA32C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8C4123442A4EAB2E001BA32C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C4123432A4EAB2E001BA32C /* SushiHub.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C4123452A4EAB2E001BA32C /* SushiHub */ = {
+			isa = PBXGroup;
+			children = (
+				8C4123462A4EAB2E001BA32C /* AppDelegate.swift */,
+				8C4123482A4EAB2E001BA32C /* SceneDelegate.swift */,
+				8C41234A2A4EAB2E001BA32C /* ViewController.swift */,
+				8C41235D2A4EAB61001BA32C /* TabBarController.swift */,
+				8C41235F2A4EAC45001BA32C /* SushiCollectionViewController.swift */,
+				8CEDBAE62A4F4518004ACE3C /* RecipeCell.swift */,
+				8CEDBAE22A4F44C1004ACE3C /* RecipeModel.swift */,
+				8CEDBAE42A4F44E6004ACE3C /* Sushi.swift */,
+				8C4123632A4EB109001BA32C /* StepByStepViewController.swift */,
+				8C4123652A4EB123001BA32C /* SushiSelectionViewController.swift */,
+				8C41234C2A4EAB2E001BA32C /* Main.storyboard */,
+				8C4123522A4EAB2F001BA32C /* Assets.xcassets */,
+				8C4123542A4EAB2F001BA32C /* LaunchScreen.storyboard */,
+				8C4123572A4EAB2F001BA32C /* Info.plist */,
+				8C41234F2A4EAB2E001BA32C /* SushiHub.xcdatamodeld */,
+			);
+			path = SushiHub;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C4123422A4EAB2E001BA32C /* SushiHub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C41235A2A4EAB2F001BA32C /* Build configuration list for PBXNativeTarget "SushiHub" */;
+			buildPhases = (
+				8C41233F2A4EAB2E001BA32C /* Sources */,
+				8C4123402A4EAB2E001BA32C /* Frameworks */,
+				8C4123412A4EAB2E001BA32C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SushiHub;
+			productName = SushiHub;
+			productReference = 8C4123432A4EAB2E001BA32C /* SushiHub.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C41233B2A4EAB2E001BA32C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					8C4123422A4EAB2E001BA32C = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 8C41233E2A4EAB2E001BA32C /* Build configuration list for PBXProject "SushiHub" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8C41233A2A4EAB2E001BA32C;
+			productRefGroup = 8C4123442A4EAB2E001BA32C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C4123422A4EAB2E001BA32C /* SushiHub */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C4123412A4EAB2E001BA32C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C4123562A4EAB2F001BA32C /* LaunchScreen.storyboard in Resources */,
+				8C4123532A4EAB2F001BA32C /* Assets.xcassets in Resources */,
+				8C41234E2A4EAB2E001BA32C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C41233F2A4EAB2E001BA32C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C4123512A4EAB2E001BA32C /* SushiHub.xcdatamodeld in Sources */,
+				8C4123642A4EB109001BA32C /* StepByStepViewController.swift in Sources */,
+				8C41234B2A4EAB2E001BA32C /* ViewController.swift in Sources */,
+				8C4123472A4EAB2E001BA32C /* AppDelegate.swift in Sources */,
+				8C4123602A4EAC45001BA32C /* SushiCollectionViewController.swift in Sources */,
+				8C41235E2A4EAB62001BA32C /* TabBarController.swift in Sources */,
+				8CEDBAE72A4F4518004ACE3C /* RecipeCell.swift in Sources */,
+				8C4123662A4EB123001BA32C /* SushiSelectionViewController.swift in Sources */,
+				8C4123492A4EAB2E001BA32C /* SceneDelegate.swift in Sources */,
+				8CEDBAE52A4F44E6004ACE3C /* Sushi.swift in Sources */,
+				8CEDBAE32A4F44C1004ACE3C /* RecipeModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8C41234C2A4EAB2E001BA32C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C41234D2A4EAB2E001BA32C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8C4123542A4EAB2F001BA32C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C4123552A4EAB2F001BA32C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8C4123582A4EAB2F001BA32C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8C4123592A4EAB2F001BA32C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C41235B2A4EAB2F001BA32C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2K2BJ49N82;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SushiHub/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SushiHub;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.insomnia.SushiHub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8C41235C2A4EAB2F001BA32C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2K2BJ49N82;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SushiHub/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SushiHub;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.insomnia.SushiHub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C41233E2A4EAB2E001BA32C /* Build configuration list for PBXProject "SushiHub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C4123582A4EAB2F001BA32C /* Debug */,
+				8C4123592A4EAB2F001BA32C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C41235A2A4EAB2F001BA32C /* Build configuration list for PBXNativeTarget "SushiHub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C41235B2A4EAB2F001BA32C /* Debug */,
+				8C41235C2A4EAB2F001BA32C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8C41234F2A4EAB2E001BA32C /* SushiHub.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8C4123502A4EAB2E001BA32C /* SushiHub.xcdatamodel */,
+			);
+			currentVersion = 8C4123502A4EAB2E001BA32C /* SushiHub.xcdatamodel */;
+			path = SushiHub.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8C41233B2A4EAB2E001BA32C /* Project object */;
+}

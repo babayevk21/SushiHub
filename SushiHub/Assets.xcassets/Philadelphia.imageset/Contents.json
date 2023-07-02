@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "hero-img-recipe-philadelphia-roll-cd2c9161aad91f5ba6ee520ecac7abe1.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
